@@ -9,10 +9,10 @@ function getInputValue()
 }
 window.alert('Enter the Category')
 x.addEventListener("click", function(){getInputValue()});
-
+/*
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
-
+*/
 app.appendChild(container);
 
 var userRequest = new XMLHttpRequest();
