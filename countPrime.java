@@ -6,19 +6,20 @@ class prime {
         int i;
         int num;
         int max; // max limit till which we want to find prime numbers
-        boolean isPrime = true;
+        
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the natural number upto which you want to check prime numbers: ");
 		max=sc.nextInt();
 		System.out.println("Prime numbers from 1 to " + max + " are:");
 		if(max<=1){
-			System.out.println("Error");
-			System.out.println("Prime numbers are natural numbers greater than 1 divisible by itslef and 1 only");
+			System.out.println("Error!! INVALID INPUT");
+			System.out.println("Prime numbers are those natural numbers greater than 1 divisible by itslef and 1 only");
 		}
         for (i = 2; i <= max; i++)
-		{	
-            isPrime = CheckPrime(i);
-            if (isPrime)
+		{
+			boolean prime;		
+            prime = CheckPrime(i);
+            if (prime)
 			{
                 num = i;
                 System.out.print(num+",");
