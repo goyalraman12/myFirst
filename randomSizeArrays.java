@@ -3,7 +3,7 @@
 
 import java.util.*;
 
- class mergeArrays1 {  
+ class mergeRandomSizeArrays {  
 	public static void main(String[] args)  
 	{  	
 		Scanner sc = new Scanner(System.in);
