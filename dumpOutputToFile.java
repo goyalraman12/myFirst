@@ -1,4 +1,4 @@
-//Merge Arrays of  different different sizes
+//Dump User Input and Outputs of the program to seperate Text Files
 
 
 import java.util.*;
